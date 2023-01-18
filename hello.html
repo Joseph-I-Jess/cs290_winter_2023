@@ -2,23 +2,39 @@
 <html>
     <head>
         <title>A page about basic HTML (which of course includes cats)</title>
+        <style>
+            table {
+                border: 2px solid green;
+                font-size: 24pt;
+            }
+            td {
+                border: 5px dotted cyan;
+                color: magenta;
+            }
+        </style>
     </head>
     <body lang="en-US">
         <!-- some comment  -->
         <a href="#endOfPage" id="topOfPage">Jump to bottom of page</a>
         <h1>Page about Web Dev</h1>
         <h2>Some cat images</h2>
-        <img lang="fr" src="https://upload.wikimedia.org/wikipedia/commons/1/15/Cat_August_2010-4.jpg" alt="A cat lying on its side." width=100>
+        <a href="https://upload.wikimedia.org/wikipedia/commons/1/15/Cat_August_2010-4.jpg">A link to wikimedia cat picture<br>
+            <img lang="fr" src="https://upload.wikimedia.org/wikipedia/commons/1/15/Cat_August_2010-4.jpg" alt="A cat lying on its side." width=100>
+        </a>
         <img src="images/Cat_August_2010-4.jpg" alt="Another cat lying on its side." width=100>
         <h2>Some text about cats</h2>
         <h3>Some text in h3</h3>
         <h4>Some text in h4</h4>
         <h5>Some text in h5</h5>
         <h6>Some text in h6</h6>
-        <p>some &nbsp; text <br>
+        <p>some &nbsp; text &copy; <br>
             about   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  cats</p>
         <p lang="fr">J'adore les chats</p>
         <a href="https://www.google.com">This is a link to Google</a>
+        <br>
+        <a href="subpages/page2.html" target="_blank">Link to page 2 of my website</a>
+        <br>
+        <a href="page3.html" target="_blank">Link to page 3 of my website (which does not exist)</a>
         <ol>
             <li>1</li>
             <li>2</li>
@@ -29,6 +45,40 @@
             <li>1</li>
             <li>3</li>
         </ul>
+        <dl>
+            <dt>Computer</dt>
+            <dd>A digital device that computes stuff...</dd>
+            <dd>A person who used to perform calculations...</dd>
+        </dl>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+        <table>
+            <caption>This is a table caption.</caption>
+            <thead>
+            <tr>
+                <th>This is a TH element</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>column 1 row 1</td>
+                <td>column 2 row 1</td>
+                <td>column 3 row 1</td>
+            </tr>
+            <tr>
+                <td>column 1 row 2</td>
+                <td>column 2 row 2</td>
+                <td>column 3 row 2</td>
+            </tr>
+            <tr>
+                <td>column 1 row 3</td>
+            </tr>
+            </tbody>
+            <tfoot>
+                This is my table foot(er).
+            </tfoot>
+        </table>
+
         <!-- <p id="endOfPage">this is the end of the page</p> -->
         <a href="#topOfPage" id="endOfPage">Jump to top of page</a>
     </body>
