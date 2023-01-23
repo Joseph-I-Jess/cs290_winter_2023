@@ -11,6 +11,33 @@
                 border: 5px dotted cyan;
                 color: magenta;
             }
+            a {
+
+            }
+            .subpage_anchor {
+                background-color: beige;
+            }
+            #cats_h2 {
+                color: #8F3;
+                background-color: blueviolet;
+                font-size:24px;
+                line-height:18px;
+                font-variant: small-caps;
+                text-align: justify;
+                text-decoration: line-through;
+            }
+            h3 {
+                /*padding, border, margin*/
+                padding: 10px 20px 40px;
+                border-width: 5px 10px 30px 50px;
+                border-style: dashed dotted double groove;
+                /* border-top: 5px inset red;
+                border-right: 10px outset green;
+                border-bottom: 15px inset blue;
+                border-left: 20px outset yellow; */
+                margin-top: 10px;
+                margin-bottom: 50px;
+            }
         </style>
     </head>
     <body lang="en-US">
@@ -22,7 +49,7 @@
             <img lang="fr" src="https://upload.wikimedia.org/wikipedia/commons/1/15/Cat_August_2010-4.jpg" alt="A cat lying on its side." width=100>
         </a>
         <img src="images/Cat_August_2010-4.jpg" alt="Another cat lying on its side." width=100>
-        <h2>Some text about cats</h2>
+        <h2 id="cats_h2">Some text about catsSome text about catsSome text about catsSome text about catsSome text about catsSome text about catsSome text about catsSome text about cats</h2>
         <h3>Some text in h3</h3>
         <h4>Some text in h4</h4>
         <h5>Some text in h5</h5>
@@ -32,9 +59,9 @@
         <p lang="fr">J'adore les chats</p>
         <a href="https://www.google.com">This is a link to Google</a>
         <br>
-        <a href="subpages/page2.html" target="_blank">Link to page 2 of my website</a>
+        <a class="subpage_anchor" href="subpages/page2.html" target="_blank">Link to page 2 of my website</a>
         <br>
-        <a href="page3.html" target="_blank">Link to page 3 of my website (which does not exist)</a>
+        <a class="subpage_anchor" href="page3.html" target="_blank">Link to page 3 of my website (which does not exist)</a>
         <ol>
             <li>1</li>
             <li>2</li>
