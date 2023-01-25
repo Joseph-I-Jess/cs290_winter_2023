@@ -3,6 +3,11 @@
     <head>
         <title>A page about basic HTML (which of course includes cats)</title>
         <style>
+            * {
+                padding: 0px;
+                /* margin: 0px; */
+                line-height: 0px;
+            }
             table {
                 border: 2px solid green;
                 font-size: 24pt;
@@ -37,6 +42,12 @@
                 border-left: 20px outset yellow; */
                 margin-top: 10px;
                 margin-bottom: 50px;
+            }
+            table > ol {
+                background-color: red;
+            }
+            a + br + a {
+                background-color: hotpink;
             }
         </style>
     </head>
@@ -79,6 +90,7 @@
         </dl>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         <br>
+        <a href="https://www.google.com">above table</a>
         <table>
             <caption>This is a table caption.</caption>
             <thead>
@@ -96,7 +108,17 @@
             <tr>
                 <td>column 1 row 2</td>
                 <td>column 2 row 2</td>
-                <td rowspan="2" colspan="2">column 3 row 2</td>
+                <td rowspan="2" colspan="2">
+                    column 3 row 2
+                    <ol>
+                        <li>
+                            column: 3
+                        </li>
+                        <li>
+                            row: 2
+                        </li>
+                    </ol>
+                </td>
             </tr>
             <tr>
                 <td style="width: 500px;">column 1 row 3</td>
@@ -111,5 +133,7 @@
 
         <!-- <p id="endOfPage">this is the end of the page</p> -->
         <a href="#topOfPage" id="endOfPage">Jump to top of page</a>
+        <br>
+        <a href="https://www.google.com">below another anchor below table</a>
     </body>
 </html>
