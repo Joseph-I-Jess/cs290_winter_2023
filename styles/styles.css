@@ -1,0 +1,46 @@
+* {
+    padding: 0px;
+    /* margin: 0px; */
+    line-height: 0px;
+}
+table {
+    border: 2px solid green;
+    font-size: 24pt;
+}
+td {
+    border: 5px dotted cyan;
+    color: magenta;
+}
+a {
+    /*Talk about pseudo-classes!*/
+}
+.subpage_anchor {
+    background-color: beige;
+}
+#cats_h2 {
+    color: #8F3;
+    background-color: blueviolet;
+    font-size:24px;
+    line-height:18px;
+    font-variant: small-caps;
+    text-align: justify;
+    text-decoration: line-through;
+}
+h3 {
+    /*padding, border, margin*/
+    padding: 10px 20px 40px;
+    border-width: 5px 10px 30px 50px;
+    border-style: dashed dotted double groove;
+    /* border-top: 5px inset red;
+    border-right: 10px outset green;
+    border-bottom: 15px inset blue;
+    border-left: 20px outset yellow; */
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+table > ol {
+    background-color: red;
+}
+a + br + a {
+    background-color: hotpink;
+}
