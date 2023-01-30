@@ -44,3 +44,8 @@ table > ol {
 a + br + a {
     background-color: hotpink;
 }
+@media (min-width: 4in) and (max-width: 6in) {
+    body {
+        background-color: rgb(246, 202, 184);
+    }
+}
