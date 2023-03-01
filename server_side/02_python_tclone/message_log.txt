@@ -1,0 +1,71 @@
+(2022-02-16 11:50:09.730930) Jophone: Hello? Is anyone there?
+(2022-02-16 11:49:32.582901) Joseph: 123
+(2022-02-16 11:47:12.739210) Joseph: asd
+(2022-02-16 11:45:48.631820) anonymous: c
+(2022-02-16 11:45:47.844824) anonymous: b
+(2022-02-16 11:45:46.102713) anonymous: a
+(2022-02-16 11:39:01.558037) Joseph: web stuff is fun!
+(2022-02-16 11:37:35.091841) Joseph: web stuff is fun!
+(2022-02-16 11:37:29.362990) Joseph: yay coding!
+(2022-02-16 11:36:33.197704) Joseph: hello
+(2021-03-01 12:05:57.597367) jo: o
+(2021-03-01 12:05:56.890400) jo: i
+(2021-03-01 12:05:56.348319) jo: u
+(2021-03-01 12:05:55.745635) jo: y
+(2021-03-01 12:05:55.030092) jo: t
+(2021-03-01 12:04:57.612377) jo: d
+(2021-03-01 12:04:56.743804) jo: c
+(2021-03-01 12:04:56.106376) jo: b
+(2021-03-01 12:04:54.737036) jo: a
+(2021-03-01 12:04:36.487353) jo: 6
+(2021-03-01 12:04:35.870492) jo: 5
+(2021-03-01 12:04:35.197425) jo: 4
+(2021-03-01 12:04:34.490429) jo: 3
+(2021-03-01 12:04:33.149363) jo: 2
+(2021-03-01 12:04:26.300342) jo: 1
+(2021-03-01 12:03:48.392125) jo: d
+(2021-03-01 12:03:47.779107) jo: c
+(2021-03-01 12:03:46.636799) jo: b
+(2021-03-01 12:03:44.445148) jo: a
+(2021-03-01 12:01:35.362399) jo: a
+(2021-03-01 11:58:08.082078) joseph: sisxth
+(2021-03-01 11:58:05.408321) joseph: fifth
+(2021-03-01 11:57:46.328178) joseph: fourth
+(2021-03-01 11:57:31.045078) joseph: fourth
+(2021-03-01 11:56:53.302646)joseph: third
+(2021-03-01 11:56:39.127161)joseph: second
+(2021-03-01 11:53:32.186559)joseph: new messages
+joseph: a
+ace: hiya?!
+jess: is there anyone out there?
+joseph: hello?
+joseph: hello?
+joseph: hello?
+joseph: hello?
+jess: is there anyone out there?
+joseph: hello?
+anon: f
+anon: d
+anon: s
+anon: a
+anon: thiungs
+anon: stuff
+joseph: h
+joseph: g
+joseph: f
+joseph: e
+joseph: d
+joseph: c
+joseph: b
+joseph: a
+joseph: did it stick?
+joseph: things
+joseph: stuff
+joseph: is anyone out there?
+joseph: hello?
+anonymous: v
+v
+b
+a
+2
+1

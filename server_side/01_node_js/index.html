@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang='en-US'>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Joseph Jess">
+  <title>Joseph's little webpage!</title>
+  <!-- odd issue with node.js not rendering with style attached...? We fixed this with the detection of the css type in the web server! Hooray! -->
+  <link rel="stylesheet" href="styles/main.css"> 
+  <script src="scripts/base_script.js"></script>
+  </head>
+  <body>
+    <!--
+    some comment
+    some other comment
+    and stuff
+  -->
+    <a href="https://www.google.com"><h1>This is an h1</h1></a>
+    <a href="sub-pages/filename.txt"><h1>This is an h1</h1></a>
+  <a class="display-none" href="images/image.jpg">
+    <img src="images/image.jpg" alt="A snip from the top of Joseph's webpage." width="100"> <!--height="500" is also an attribute -->
+  </a>
+  <a href="#page-bottom"><h2>This is an h2</h2></a>
+  <h3 id="h3">This is an h3</h3>
+  <h4>This is an h4</h4>
+  <h5>This is an h5</h5>
+  <h6>This is an h6</h6>
+  <p id="a_p" onClick="change_p()">This is a clickable paragraph.</p>
+  <p id="another_p" onClick="var another_p = document.getElementById('another_p');
+  another_p.innerHTML = 'Another paragraph has been changed!';
+  another_p.style.border = '1px solid black';">This is a clickable paragraph.</p>
+  <br>
+  <p id="another_p">This is another paragraph.</p>
+  <div id="pineapples" class="border-1px-solid-black clearfix">
+    <img class="float-left" src="images/pineapple.jpg" alt="Pineapple floating left" onClick="person_stuff()">
+    <img class="float-right" src="images/pineapple.jpg" alt="Pineapple floating right" onClick="say_something('float-right pineapple clicked')">
+    <img id="fixed" src="images/pineapple.jpg" alt="Pineapple floating right" onclick="say_something('fixed pineapple clicked')">
+    <p>This is yet another paragraph.</p>
+    <p>text1 text2 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; text3</p>
+  </div>
+  <div class="bkg-blue">
+	<ol type="A">
+    <li>item 1</li>
+    <li>item 2</li>
+    <li>item 3</li>
+    <li>item 4</li>
+    </ol>
+	<p>
+    stuff
+      and
+    things
+    </p>
+  </div>
+  <div class="simple-dropdown">
+  <p>Hover over me!</p>
+  <p class="display-none simple-dropdown-content">And some dropdown content shows up!</p>
+  </div>
+  <div>
+    <ul>
+      <li>item 1</li>
+      <li>item 2</li>
+    </ul>
+    
+    <dl>
+      <dt>Football</dt>
+      <dd>An american sport with lots of padding and overly aggressive behavior</dd>
+      <dd></dd>
+    </dl>
+    
+    <table border="1px solid black">
+      <caption>Some caption for the table</caption>
+      <thead>
+        <td class="colspanned" colspan=6>row 1, col 1</td>
+        <td id="important_cell" class="colspanned" colspan=2>row 1, col 2</td>
+        <td class="colspanned" colspan=3>row 1, col 3</td>
+      </thead>
+      <tbody>
+      <tr>
+        <td class="colspanned" rowspan=2 colspan=2 id="red-cell">row 2, col 1</td>
+        <td>row 2, col 2</td>
+        <td rowspan=2>row 2, col 3</td>
+        <td>row 2, col 4</td>
+        <td>row 2, col 5</td>
+        <td>row 2, col 6</td>
+        <td>row 2, col 7</td>
+        <td>row 2, col 8</td>
+      </tr>
+      <tr>
+        <td>row 3, col 1</td>
+        <td>row 3, col 2</td>
+        <td>row 3, col 3</td>
+      </tr>
+      </tbody>
+      <tfoot>
+        <td class="colspanned" colspan=9>foot col 1</td>
+      </tfoot>
+    </table>
+    </div>
+  
+  <a href="#h3"><p>Go back to h3 close to the top of the page</p></a>
+  <div id="page-bottom"></div>
+  </body>
+</html>

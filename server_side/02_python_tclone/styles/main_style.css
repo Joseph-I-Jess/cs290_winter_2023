@@ -1,0 +1,90 @@
+table {
+  width: 50%;
+  height:500px;
+}
+td {
+  width: 33%;
+}
+td, table {
+  border:1px solid green;
+}
+ul li {
+  background-color: lime;
+  font-size: 16px;
+  list-style: square inside;
+}
+ol li {
+  background-color: tomato;
+  font-size: 24px;
+  list-style: lower-roman inside;
+}
+a:link {background-color: red; font-size: 16px;}
+a:visited {background-color: green; font-size: 24px;}
+a:hover {background-color: blue; font-size: 32px;}
+a:active {background-color: black; font-size: 40px;}
+/*.green-bordered {border: 3px solid green;}*/
+#top {text-decoration: overline;}
+#bottom {text-decoration: overline;}
+#main-content {color:lightblue; background-color:black;}
+
+main {
+  width:90%;
+  height:300px;
+  margin:20px;
+  padding:20px;
+  border:20px solid red;
+  box-sizing: border-box;
+  overflow:auto;
+}
+main h3, main p {
+  width: 80%;
+}
+
+.float-right {
+  float:right;
+}
+.float-left {
+  float:left;
+}
+
+.clear-left {
+  clear:left;
+}
+.clear-right {
+  clear:right;
+}
+.clear-both {
+  clear:both;
+}
+.clearfix::after {
+  content:"";
+  clear:both;
+  display:table;
+}
+
+.images {
+  border:3px solid greenyellow;
+  background-color: #555;
+  height:500px;
+  width: 90%;
+  margin: 0% 5% 0% 5%;
+}
+
+.positional-cat {
+  position:sticky;
+  top:0px;
+}
+
+/*Stolen (dl and dt)!: https://www.the-art-of-web.com/css/format-dl/*/
+dt {
+  font-weight: bold;
+  text-decoration: underline;
+}
+dd {
+  margin: 5px;
+  padding: 5px 0 0.5em 0;
+}
+
+/*More advanced nav bar stuff here if you are interested :)!
+    https://webdesign.tutsplus.com/tutorials/how-to-build-a-responsive-navigation-bar-with-flexbox--cms-33535
+*/

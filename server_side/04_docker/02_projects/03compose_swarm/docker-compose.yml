@@ -1,0 +1,10 @@
+version: "3.8"
+services:
+  manager:
+    build:
+      context: .
+      dockerfile: manager.Dockerfile
+  worker:
+    build:
+      context: .
+      dockerfile: worker.Dockerfile

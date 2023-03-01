@@ -1,0 +1,26 @@
+---
+- hosts: mynodes
+  gather_facts: no
+  become: true
+  tasks:
+  - name: Ensure Python is at the latest version
+    raw: apt install python3
+  - name: Ensure apache is at the latest version
+    apt:
+      name: apache2 
+      state: latest
+  - name: Copy our index.html into place
+    template:
+      src: ansible-index.html
+      dest: /var/www/html/index.html
+    notify:
+    - restart apache
+  - name: ensure apache is running
+    service:
+      name: apache2
+      state: started
+  handlers:
+    - name: restart apache
+      service:
+        name: apache2
+        state: restarted
