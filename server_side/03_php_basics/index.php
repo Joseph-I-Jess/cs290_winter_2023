@@ -14,6 +14,9 @@
     foreach($arr as $item) {
         echo "<br>\$item: $item";
     }
+    echo("<br><br>" . pi());
+    $len = strlen(pi());
+    echo("<br>$len");
 ?>
 
 </body>
